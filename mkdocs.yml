@@ -1,0 +1,33 @@
+site_name: SimpleLogin Docs
+site_url: https://simplelogin.io/docs/
+site_description: Receive and send emails anonymously.
+site_author: SimpleLogin
+
+# Repository
+repo_name: simple-login/documentation
+repo_url: https://github.com/simple-login/documentation
+
+copyright: Copyright &copy; 2019 - 2021 SimpleLogin
+
+theme:
+  name: material
+  palette:
+    primary: brown
+    accent: purple
+  logo: assets/logo.svg
+  
+
+
+extra_css:
+  - stylesheets/extra.css
+
+extra_javascript:
+  - javascripts/extra.js
+
+nav:
+  - Home: index.md
+  - Getting started:
+    - Register Account: getting-started/register-account.md
+    - Crete Aliases: getting-started/create-alias.md
+  - Custom Domain:
+    - Add a Custom Domain: custom-domain/add-domain.md
