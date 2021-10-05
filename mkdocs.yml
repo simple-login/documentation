@@ -12,11 +12,19 @@ copyright: Copyright &copy; 2019 - 2021 SimpleLogin
 theme:
   name: material
   palette:
-    primary: brown
-    accent: purple
+    - scheme: default
+      primary: white
+      accent: purple
+      toggle:
+        icon: material/toggle-switch-off-outline
+        name: Switch to dark mode
+    - scheme: slate
+      toggle:
+        icon: material/toggle-switch
+        name: Switch to light mode
   logo: assets/logo.svg
+  favicon: assets/favicon.ico
   
-
 
 extra_css:
   - stylesheets/extra.css
@@ -25,9 +33,11 @@ extra_javascript:
   - javascripts/extra.js
 
 nav:
-  - Home: index.md
+  - Welcome: index.md
   - Getting started:
     - Register Account: getting-started/register-account.md
-    - Crete Aliases: getting-started/create-alias.md
+    - Create Aliases: getting-started/create-alias.md
+    - Troubleshooting: getting-started/troubleshooting.md
   - Custom Domain:
     - Add a Custom Domain: custom-domain/add-domain.md
+    - Manage your domain: custom-domain/manage-domain.md

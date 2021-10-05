@@ -1,17 +1,11 @@
-# Welcome to MkDocs
+# Welcome to SimpleLogin documentation
 
-For full documentation visit [mkdocs.org](https://www.mkdocs.org).
+SimpleLogin is an open source email service that allows you to receive and send emails anonymously. Based in France, SimpleLogin has helped 50,000+ people protect their mailboxes against spams, phishing and data breaches.
 
-## Commands
+This is SimpleLogin documentation. 
 
-* `mkdocs new [dir-name]` - Create a new project.
-* `mkdocs serve` - Start the live-reloading docs server.
-* `mkdocs build` - Build the documentation site.
-* `mkdocs -h` - Print help message and exit.
+Our documentation is a great place to find most answers and make sure that you can get the most out from SimpleLogin. Please use the search box to quickly search for a specific topic and find the answers you're looking for.
 
-## Project layout
+Cannot find what you're looking for? Please do [contact us](mailto:hi@simplelogin.io) so we can update the documentation. Thanks, and enjoy SimpleLogin!
 
-    mkdocs.yml    # The configuration file.
-    docs/
-        index.md  # The documentation homepage.
-        ...       # Other markdown pages, images and other files.
+![](./assets/everywhere.png)
