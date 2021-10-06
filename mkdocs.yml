@@ -24,6 +24,7 @@ theme:
         name: Switch to light mode
   logo: assets/logo.svg
   favicon: assets/favicon.ico
+  font: false
   
 
 extra_css:
