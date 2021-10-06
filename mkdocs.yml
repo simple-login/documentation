@@ -26,7 +26,10 @@ theme:
   favicon: assets/favicon.ico
   font: false
   
-
+markdown_extensions:
+  - pymdownx.highlight
+  - pymdownx.superfences
+  
 extra_css:
   - stylesheets/extra.css
 
@@ -44,4 +47,16 @@ nav:
     - Manage your domain: custom-domain/manage-domain.md
   - Mailboxes:
     - Add a new mailbox: mailbox/add-mailbox.md
+  - SIWSL: 
+    - Welcome: siwsl/intro.md
+    - App: siwsl/app.md
+    - Guides:
+      - Frontend JS: siwsl/frontend-js.md
+      - Flask (Python): siwsl/flask.md
+      - Django (Python): siwsl/django.md
+      - Passport (Node.js): siwsl/passport.md
+      - Discourse: siwsl/discourse.md
+    - Code Flow - the raw way: siwsl/code-flow.md
+    - Implicit Flow - the raw way: siwsl/implicit-flow.md
+    - Error Codes: siwsl/errors.md
     
