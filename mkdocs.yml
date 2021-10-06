@@ -41,3 +41,6 @@ nav:
   - Custom Domain:
     - Add a Custom Domain: custom-domain/add-domain.md
     - Manage your domain: custom-domain/manage-domain.md
+  - Mailboxes:
+    - Add a new mailbox: mailbox/add-mailbox.md
+    
