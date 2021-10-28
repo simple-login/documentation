@@ -10,6 +10,5 @@ You'll be directed to the domain DNS page where a small guide will walk you thro
 
 ![](./domain-dns.png)
 
-Currently we have a guide on how to set up a domain on NameCheap but instructions should be similar for other domain registrars.
+Currently we have a guide on how to set up a domain on [NameCheap](/docs/custom-domain/registrars/namecheap/namecheap/). Guides for other domain registrars are coming up! 
 
-[![Connect your NameCheap custom domain to SimpleLogin](https://img.youtube.com/vi/1dvFxmqSYkA/0.jpg)](https://www.youtube.com/watch?v=1dvFxmqSYkA)

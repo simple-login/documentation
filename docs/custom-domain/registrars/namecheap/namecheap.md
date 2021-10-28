@@ -1,5 +1,8 @@
 # How to add a NameCheap domain to SimpleLogin. 
 
+Here's a screencast on how to set up a domain on NameCheap that sums up all below steps:
+
+[![Connect your NameCheap custom domain to SimpleLogin](https://img.youtube.com/vi/1dvFxmqSYkA/0.jpg)](https://www.youtube.com/watch?v=1dvFxmqSYkA)
 
 ## Add your domain to SimpleLogin 
 
