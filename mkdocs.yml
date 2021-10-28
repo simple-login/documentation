@@ -25,11 +25,11 @@ theme:
   logo: assets/logo.svg
   favicon: assets/favicon.ico
   font: false
-  
+
 markdown_extensions:
   - pymdownx.highlight
   - pymdownx.superfences
-  
+
 extra_css:
   - stylesheets/extra.css
 
@@ -45,9 +45,12 @@ nav:
   - Custom Domain:
     - Add a Custom Domain: custom-domain/add-domain.md
     - Manage your domain: custom-domain/manage-domain.md
+    - Domain Registrars:
+      - NameCheap: custom-domain/registrars/namecheap/namecheap.md
+
   - Mailboxes:
     - Add a new mailbox: mailbox/add-mailbox.md
-  - SIWSL: 
+  - SIWSL:
     - Welcome: siwsl/intro.md
     - App: siwsl/app.md
     - Guides:
@@ -59,4 +62,3 @@ nav:
     - Code Flow - the raw way: siwsl/code-flow.md
     - Implicit Flow - the raw way: siwsl/implicit-flow.md
     - Error Codes: siwsl/errors.md
-    
