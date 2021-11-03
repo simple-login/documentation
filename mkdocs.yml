@@ -41,6 +41,7 @@ nav:
   - Getting started:
     - Register Account: getting-started/register-account.md
     - Create Aliases: getting-started/create-alias.md
+    - One-click unsubscribe: getting-started/one-click-unsubscribe.md
     - Troubleshooting: getting-started/troubleshooting.md
   - Custom Domain:
     - Add a Custom Domain: custom-domain/add-domain.md
