@@ -21,26 +21,20 @@ First, let's install the official OpenID Connect Authentication plugin by adding
 sudo -E -u discourse git clone https://github.com/discourse/discourse-openid-connect.git
 ```
 
-into your container’s `app.yml` file (usually present in `/var/discourse/containers/`). More info on how to install a plugin on [How to Install Plugins in Discourse](https://meta.discourse.org/t/install-plugins-in-discourse/19157)
+into your container’s `app.yml` file (usually present in `/var/discourse/containers/`). More info on how to install a plugin on [How to Install Plugins in Discourse](https://meta.discourse.org/t/install-plugins-in-discourse/19157). The line is added here:
 
-```
-hooks:
-  after_code:
-    - exec:
-        cd: $home/plugins
-        cmd:
-          - sudo -E -u discourse git clone https://github.com/discourse/docker_manager.git
-          - sudo -E -u discourse git clone https://github.com/discourse/discourse-openid-connect.git
-```
+![](./images/discourse-openid-plugin.png)
 
-After that rebuild the container.
+
+
+After that rebuild the container. This can take several minutes so you can take a cup of ☕️ after running it.
 
 ```bash
 cd /var/discourse
 ./launcher rebuild app
 ```
 
-The plugin should be now available on the Discourse Admin/Plugins page
+The plugin should be now available on the Discourse Admin/Plugins page:
 
 ![](./images/discourse-admin.png)
 
