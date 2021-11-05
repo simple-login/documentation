@@ -41,6 +41,7 @@ nav:
   - Getting started:
     - Register Account: getting-started/register-account.md
     - Create Aliases: getting-started/create-alias.md
+    - Send emails from your alias: getting-started/send-email.md
     - One-click unsubscribe: getting-started/one-click-unsubscribe.md
     - Troubleshooting: getting-started/troubleshooting.md
   - Custom Domain:
