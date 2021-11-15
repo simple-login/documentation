@@ -53,8 +53,11 @@ nav:
       - Google: custom-domain/registrars/google/google.md
 
   - Subdomain:
-    - Add a subdomain: subdomain/new.md
+    - Create a subdomain: subdomain/new.md
     - Manage your subdomain: subdomain/manage.md
+
+  - Directory:
+    - Create a directory: directory/new.md
 
   - Mailboxes:
     - Add a new mailbox: mailbox/add-mailbox.md

@@ -1,3 +1,6 @@
+Having a subdomain allows you to quickly create aliases on the flight, i.e. you don't have to open SimpleLogin app to create a new alias.
+
+For example, if you own the subdomain `my-sub.aleeas.com`, you can make up an alias like mcdonald@my-sub.aleeas.com when you are commanding a McDonald burger without opening SimpleLogin app.
 
 To add a new subdomain, head to the Dashboard and notice the new Subdomains button on the menu:
 
