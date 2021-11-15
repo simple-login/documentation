@@ -52,6 +52,10 @@ nav:
       - NameCheap: custom-domain/registrars/namecheap/namecheap.md
       - Google: custom-domain/registrars/google/google.md
 
+  - Subdomain:
+    - Add a subdomain: subdomain/new.md
+    - Manage your subdomain: subdomain/manage.md
+
   - Mailboxes:
     - Add a new mailbox: mailbox/add-mailbox.md
   - SIWSL:
