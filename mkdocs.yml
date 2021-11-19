@@ -42,6 +42,7 @@ nav:
     - Register Account: getting-started/register-account.md
     - Create Aliases: getting-started/create-alias.md
     - Send emails from your alias: getting-started/send-email.md
+    - Block sender: getting-started/block-sender.md
     - Reverse alias: getting-started/reverse-alias.md
     - One-click unsubscribe: getting-started/one-click-unsubscribe.md
     - Troubleshooting: getting-started/troubleshooting.md
