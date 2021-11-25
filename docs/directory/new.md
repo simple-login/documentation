@@ -1,6 +1,6 @@
 Having a directory allows you to quickly create aliases on the fly, i.e. you don't have to open SimpleLogin app to create a new alias.
 
-For example, if you own the directory `dir-name`, you can make up an alias like `dir-name/mcdonald@aleeas.com` when you are ordering a McDonald's burger without opening the SimpleLogin app. Note the slash sign (`/`) in the address. You can also use the dash sign (/) or plus sign (+) instead of /
+For example, if you own the directory `dir-name`, you can make up an alias like `dir-name/mcdonald@aleeas.com` when you are ordering a McDonald's burger without opening the SimpleLogin app. Note the slash sign (`/`) in the address. You can also use the hashtag sign (`#`) or plus sign (`+`) instead of /
 
 To add a new directory, head to the Dashboard and click on the new "Directory" button on the menu:
 
