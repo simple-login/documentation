@@ -45,6 +45,7 @@ nav:
     - Block sender: getting-started/block-sender.md
     - Reverse alias: getting-started/reverse-alias.md
     - One-click unsubscribe: getting-started/one-click-unsubscribe.md
+    - Delete an alias: getting-started/delete-alias.md
     - Troubleshooting: getting-started/troubleshooting.md
   - Custom Domain:
     - Add a Custom Domain: custom-domain/add-domain.md
