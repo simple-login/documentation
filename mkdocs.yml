@@ -56,6 +56,7 @@ nav:
 
   - Subdomain:
     - Create a subdomain: subdomain/new.md
+    - Delete a subdomain: subdomain/delete.md
     - Manage your subdomain: subdomain/manage.md
 
   - Directory:
