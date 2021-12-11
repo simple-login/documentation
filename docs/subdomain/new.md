@@ -1,4 +1,4 @@
-Having a subdomain allows you to quickly create aliases on the flight, i.e. you don't have to open SimpleLogin app to create a new alias.
+Having a subdomain allows you to quickly create aliases on the fly, i.e. you don't have to open SimpleLogin app to create a new alias.
 
 For example, if you own the subdomain `my-sub.aleeas.com`, you can make up an alias like mcdonald@my-sub.aleeas.com when you are commanding a McDonald burger without opening SimpleLogin app.
 
@@ -14,9 +14,9 @@ Once created, you can either create a new alias with this new subdomain
 
 ![](./new-alias.png)
 
-or just start make up aliases like `anything`@my-sub.aleeas.com. `anything` can be replaced by, well, anything :).
+or just make up aliases like `anything`@my-sub.aleeas.com. `anything` can be replaced by, well, anything :).
 
-If you want to have more control over the subdomain, you can also use the "Auto Create". Although this uses regular expressions, you don't need to be a regular expression guru to use it.
+If you want to have more control over the subdomain, you can also use "Auto Create". Although this uses regular expressions, you don't need to be a regular expressions guru to use it.
 
 ![](./auto-create.png)
 
