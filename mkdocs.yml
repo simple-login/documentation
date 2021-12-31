@@ -52,6 +52,7 @@ nav:
     - Manage your domain: custom-domain/manage-domain.md
     - Domain Registrars:
       - NameCheap: custom-domain/registrars/namecheap/namecheap.md
+      - NameCheap (subdomain): custom-domain/registrars/namecheap/namecheap-subdomain.md
       - Google: custom-domain/registrars/google/google.md
 
   - Subdomain:
