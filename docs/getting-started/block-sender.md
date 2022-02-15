@@ -14,7 +14,7 @@ To block a sender, you can either block them directly on the dashboard:
 
 ![](block-sender/block-latest-sender.png)
 
-Or go to a contact page and bloock them there
+Or go to a contact page and block them there
 
 ![](block-sender/block-sender-contact-page.png)
 
