@@ -46,6 +46,7 @@ nav:
     - Reverse alias: getting-started/reverse-alias.md
     - One-click unsubscribe: getting-started/one-click-unsubscribe.md
     - Delete an alias: getting-started/delete-alias.md
+    - Transfer an alias: getting-started/transfer-alias.md
     - Troubleshooting: getting-started/troubleshooting.md
   - Custom Domain:
     - Add a Custom Domain: custom-domain/add-domain.md
