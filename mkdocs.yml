@@ -48,6 +48,7 @@ nav:
     - Delete an alias: getting-started/delete-alias.md
     - Transfer an alias: getting-started/transfer-alias.md
     - Anti-phishing: getting-started/anti-phishing.md
+    - Other email alias service: getting-started/compatibility-email-alias.md
     - Troubleshooting: getting-started/troubleshooting.md
   - Custom Domain:
     - Add a Custom Domain: custom-domain/add-domain.md
