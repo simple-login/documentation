@@ -68,6 +68,11 @@ nav:
 
   - Mailboxes:
     - Add a new mailbox: mailbox/add-mailbox.md
+
+  - Subscription:
+    - Student discount: subscription/student-discount.md
+    - Family discount: subscription/family-plan.md
+
   - SIWSL:
     - Welcome: siwsl/intro.md
     - App: siwsl/app.md
