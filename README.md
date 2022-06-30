@@ -1,15 +1,13 @@
-This website is built using [MkDocs](https://www.mkdocs.org) using the [material theme](https://squidfunk.github.io/mkdocs-material/)
+# Repository Bio
+This repository is used to document and keep a detailed user guide of ways on how to use SimpleLogin, more afactively and easily.
 
-To run the project, install `mkdocs-material`
+# Contributing
+Anybody is welcome to contribute grammatical and factal corrections. 
 
-```bash
-pip install mkdocs-material
-```
+# Guides Copyright 
+All contect in thisrepository is copyright ® of SimpleLogin SAS.
 
-Then run 
+**Copyright ® of SimpleLogin SAS**
 
-```bash
-mkdocs serve
-```
-
-And open http://localhost:8000/docs/
+# Third Party Licenses
+Docs made possible by [MkDocs](https://www.mkdocs.org), witch the use of the softawre is licensed under a "[BSD 2-Clause License](https://github.com/mkdocs/mkdocs/blob/master/LICENSE)".
