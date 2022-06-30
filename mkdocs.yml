@@ -7,7 +7,7 @@ site_author: SimpleLogin
 repo_name: simple-login/documentation
 repo_url: https://github.com/simple-login/documentation
 
-copyright: Copyright &copy; 2019 - 2021 SimpleLogin
+copyright ® SimpleLogin SAS
 
 theme:
   name: material
