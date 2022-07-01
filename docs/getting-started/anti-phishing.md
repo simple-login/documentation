@@ -6,7 +6,7 @@ The authentication check is currently based on [DMARC](https://en.wikipedia.org/
 
 When the authenticity check fails, depending on the policy set by the sender, an email can either:
 
-- Be put into **quarantine**. This happens when the sender explicitly states in their DMARC policy that the emails witch violate the policy should be quarantined or rejected. In this case, SimpleLogin will inform you through an email notification and will then allow you to download the quarantined email. Unfortunately, the only solution in this case is for the sender to fix their DMARC policy as their emails are most likely being refused or put into a spam folder somewhere else as well.
+- Be put into **quarantine**. This happens when the sender explicitly states in their DMARC policy that the emails which violate the policy should be quarantined or rejected. In this case, SimpleLogin will inform you through an email notification and will then allow you to download the quarantined email. Unfortunately, the only solution in this case is for the sender to fix their DMARC policy as their emails are most likely being refused or put into a spam folder somewhere else as well.
 
 - Have a **warning added**. This happens when the check fails, but when the sender hasn’t set any specific action in their policy yet. The email can be spam or a phishing attempt, and it’s important for SimpleLogin to inform you about the potential risks. Unfortunately, false positives do happen, especially when the sender incorrectly sets up their policy. It would be beneficial to inform the sender in this case, so they can fix the issue as soon as possible.
 
