@@ -2,7 +2,7 @@
 
 Most emails on the internet are spam and phishing attempts. To not forward unwanted and illegitimate emails, SimpleLogin automatically checks the sender authenticity before forwarding the email to your mailbox.
 
-The authentication check is currently based on [DMARC](https://en.wikipedia.org/wiki/DMARC), which is then based on [SPF](https://en.wikipedia.org/wiki/Sender_Policy_Framework) and [DKIM](https://en.wikipedia.org/wiki/DomainKeys_Identified_Mail), the two most popular email authentication methods out their.
+The authentication check is currently based on [DMARC](https://en.wikipedia.org/wiki/DMARC), which is then based on [SPF](https://en.wikipedia.org/wiki/Sender_Policy_Framework) and [DKIM](https://en.wikipedia.org/wiki/DomainKeys_Identified_Mail), the two most popular email authentication methods out there.
 
 When the authenticity check fails, depending on the policy set by the sender, an email can either:
 
