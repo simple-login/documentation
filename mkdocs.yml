@@ -7,7 +7,9 @@ site_author: SimpleLogin
 repo_name: simple-login/documentation
 repo_url: https://github.com/simple-login/documentation
 
-copyright ® SimpleLogin SAS
+copyright: SimpleLogin is an open-source email alias solution to protect your email address.
+
+
 
 theme:
   name: material
