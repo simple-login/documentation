@@ -4,11 +4,11 @@
 
 Head to the SimpleLogin [domain page](https://app.simplelogin.io/dashboard/custom_domain) and add your domain in to the field.
 
-![](../../new-domain.png)
+![](./new-domain.png)
 
 You'll then be redirected to the SimpleLogin DNS setup page that has a guide on how to set up different DNS records for your domain.
 
-![](../../domain-dns.png)
+![](./domain-dns.png)
 
 ## Verify domain ownernership
 
@@ -46,11 +46,11 @@ Then add the following Values, Name, and Priorities to the MX records:
 
 Now press on "Verify" in the SimpleLogin DNS setup screen under the "MX record" selection. And wait a bit as it can take up to several minutes (or hours) before it has propagated on the web for everyone to seen, and also don't hesitate to press on "Verify" several times to see if it has propagated yet.
 
-![](../mx-verified.png)
+![](./mx-verified.png)
 
 Once the MX records are verified, you can start creating aliases with your domain!
 
-![](../creating-alias.png)
+![](./creating-alias.png)
 
 ## (Optional) Adding Sender Policy Framework to Go Daddy
 
@@ -68,7 +68,7 @@ Now, after having done that, go back to the SimpleLogin DNS setup screen and pre
 
 If it has, it should look something like this:
 
-![](../spf-verified.png)
+![](./spf-verified.png)
 
 If it hasn't, then double check the setup and fix any mistakes.
 
@@ -88,7 +88,7 @@ Now, same as before with the spf record, go back to the SimpleLogin DNS setup sc
 
 If it has, it should look something like this:
 
-![](../dkim-verified.png)
+![](./dkim-verified.png)
 
 If it hasn't, then double check the setup and fix any mistakes.
 
@@ -108,7 +108,7 @@ And again, same as before with the spf and DKIM records, go back to the SimpleLo
 
 Once again, if it has, it should look something like this:
 
-![](../dmarc-verified.png)
+![](./dmarc-verified.png)
 
 If it hasn't, then double check the setup and fix any mistakes.
 
