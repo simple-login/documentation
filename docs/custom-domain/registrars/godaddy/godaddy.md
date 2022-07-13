@@ -20,9 +20,9 @@ Then create a TXT record and add the appropriate values from the SimpleLogin DNS
 
 ![](./txt-record.png)
 
-Ather adding the appropriate values from the SimpleLogin DNS setup screen in to the appropriate fields in Go Daddy and waiting for it to be verified in the SimpleLogin DNS setup screen after haing pressed "Verify" in SimpleLogin. It should look something like this.
+After adding the appropriate values from the SimpleLogin DNS setup screen in to the appropriate fields in Go Daddy and waiting for it to be verified in the SimpleLogin DNS setup screen after haing pressed "Verify" in SimpleLogin. It should look something like this.
 
-![](../sl-domain-verified.png)
+![](./sl-domain-verified.png)
 
 Once it looks like that, you want to go ahead and add the SimpleLogin MX records. But before you do that, you want to make sure that if you have any existing MX records in your DNS Zone, that you remove them first by pressing "Delete" button on them.
 
