@@ -112,6 +112,6 @@ Once again, if it has, it should look something like this:
 
 If it hasn't, then double check the setup and fix any mistakes.
 
-# End
+# The End
 
 Congratulations you now have offically setup simplelogin with your domain!
