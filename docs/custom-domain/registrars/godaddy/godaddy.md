@@ -1,4 +1,4 @@
-# How your Go Daddy domain to SimpleLogin
+# How to add your Go Daddy domain to SimpleLogin
 
 ## Adding your domain to SimpleLogin
 
