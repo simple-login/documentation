@@ -1,4 +1,4 @@
-# How to add your Go Daddy domain to SimpleLogin
+# How to add your GoDaddy domain to SimpleLogin
 
 ## Adding your domain to SimpleLogin
 
@@ -12,23 +12,23 @@ You'll then be redirected to the SimpleLogin DNS setup page that has a guide on 
 
 ## Verify domain ownernership
 
-To verify your domain ownership, press on the "Manage DNS" button under the "Domain" selection in the left sidebar on your Go Daddy dashboard.
+To verify ownership of your domain, press on the "Manage DNS" button under the "Domain" selection in the left sidebar in your GoDaddy dashboard.
 
 ![](./manage-dns-button.png)
 
-Then create a TXT record and add the appropriate values from the SimpleLogin DNS setup screen in to the appropriate fields in Go Daddy.
+Then create a TXT record and add the appropriate values from the SimpleLogin DNS setup screen in to the appropriate fields in GoDaddy.
 
 ![](./txt-record.png)
 
-After adding the appropriate values from the SimpleLogin DNS setup screen in to the appropriate fields in Go Daddy and waiting for it to be verified in the SimpleLogin DNS setup screen after haing pressed "Verify" in SimpleLogin. It should look something like this.
+After adding the appropriate values from the SimpleLogin DNS setup screen in to the appropriate fields in GoDaddy and waiting for it to be verified in the SimpleLogin DNS setup screen after having pressed "Verify" in SimpleLogin. It should look something like this.
 
 ![](./sl-domain-verified.png)
 
-Once it looks like that, you want to go ahead and add the SimpleLogin MX records. But before you do that, you want to make sure that if you have any existing MX records in your DNS Zone, that you remove them first by pressing "Delete" button on them.
+Once it looks like that, you want to go ahead and add the SimpleLogin MX records. But before you do that, you want to make sure that if you have any existing MX records in your DNS Zone, that you remove them first by pressing the "Delete" button on them.
 
-## Add MX records to go daddy
+## Add MX records to GoDaddy
 
-First press on "ADD" button in Go Daddy:
+First press on "ADD" button in GoDaddy:
 
 ![](./add-mx-records.png)
 
@@ -52,11 +52,11 @@ Once the MX records are verified, you can start creating aliases with your domai
 
 ![](./creating-alias.png)
 
-## (Optional) Adding Sender Policy Framework to Go Daddy
+## (Optional) Adding Sender Policy Framework to GoDaddy
 
-Setting up SPF (Sender Policy Framework) is highly recommended if you plan to send emails from your aliases. It'll reduce the chance of your emails ending up in a recipient's Spam Folder.
+Setting up a SPF (Sender Policy Framework) policy for your domain is highly recommended if you plan to send emails from your aliases. It'll reduce the chance of your emails ending up in a recipient's Spam Folder.
 
-In go daddy, press the "ADD" button, then select the following record Type, Name, and Value in the record to add SPF to your domain:
+In GoDaddy, press the "ADD" button, then select the following record Type, Name, and Value in the record to add a SPF policy to your domain:
 
 - "Type" = TXT
 - "Name" = @
@@ -72,11 +72,11 @@ If it has, it should look something like this:
 
 If it hasn't, then double check the setup and fix any mistakes.
 
-## (Optional) Adding DomainKeys Identified Mail to Go Daddy
+## (Optional) Adding DomainKeys Identified Mail to GoDaddy
 
-Similar to SPF, setting up DKIM (DomainKeys Identified Mail) is highly recommended if you plan to send emails from your aliases.
+Similar to SPF, setting up DKIM (DomainKeys Identified Mail) policy for your domain is highly recommended if you plan to send emails from your aliases.
 
-In go daddy, press the "ADD" button, then select the following record Type, Name, and Value in the record to add DKIM to your domain:
+In GoDaddy, press the "ADD" button, then select the following record Type, Name, and Value in the record to add DKIM to your domain:
 
 - "Type" = CNAME
 - "Name" = `dkim._domainkey`
@@ -84,7 +84,7 @@ In go daddy, press the "ADD" button, then select the following record Type, Name
 
 ![](./dkim-record.png)
 
-Now, same as before with the spf record, go back to the SimpleLogin DNS setup screen and press on "Verify" to see if the DKIM selection has been verified or not.
+Now, same as before with the SPF policy, go back to the SimpleLogin DNS setup screen and press on "Verify" to see if the DKIM selection has been verified or not.
 
 If it has, it should look something like this:
 
@@ -92,11 +92,11 @@ If it has, it should look something like this:
 
 If it hasn't, then double check the setup and fix any mistakes.
 
-## (Optional) Adding Domain-based Message Authentication Reporting & Conformance to Go Daddy
+## (Optional) Adding Domain-based Message Authentication Reporting & Conformance to GoDaddy
 
-Once you have set up SPF and DKIM, setting up DMARC (Domain-based Message Authentication Reporting & Conformance) is also recommended to even further reduce the chance of your emails ending up in the recipient's Spam Folder.
+Once you have set up the SPF and DKIM policies for your domain, setting up a DMARC (Domain-based Message Authentication Reporting & Conformance) policy is also recommended to even further reduce the chance of your emails ending up in the recipient's Spam Folder.
 
-And again, same as before. In Go Daddy, press the "ADD" button, then select the following record Type, Name, and Value in the record to add DMARC to your domain:
+And again, same as before. In GoDaddy, press the "ADD" button, then select the following record Type, Name, and Value in the record to add the DMARC policy to your domain:
 
 - "Type" = TXT
 - "Name" = `_dmarc`
@@ -104,7 +104,7 @@ And again, same as before. In Go Daddy, press the "ADD" button, then select the 
 
 ![](./dmarc-record.png)
 
-And again, same as before with the spf and DKIM records, go back to the SimpleLogin DNS setup screen and press on "Verify" to see if the dmarc selection has been verified or not.
+And again, same as before with the SPF and DKIM policies, go back to the SimpleLogin DNS setup screen and press on "Verify" to see if the DMARC selection has been verified or not.
 
 Once again, if it has, it should look something like this:
 
@@ -114,4 +114,4 @@ If it hasn't, then double check the setup and fix any mistakes.
 
 # The End
 
-Congratulations you now have offically setup simplelogin with your domain!
+Congratulations you now have offically setup SimpleLogin to work with your domain!
