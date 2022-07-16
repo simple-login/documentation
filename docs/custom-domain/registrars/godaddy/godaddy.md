@@ -39,8 +39,8 @@ Then select MX in the record type:
 Then add the following Values, Name, and Priorities to the MX records: 
 
 - "Name" = @
-- "Priorities" = 10 and 20 (10 for the first one 20 for the seconed mone)
-- "Values" = `mx1.simplelogin.co.` and `mx2.simplelogin.co.`(mx1 bing the one you first want to add in the first MX record and mx2 being the seconed one you want to add in the seconed MX record)
+- "Priorities" = 10 and 20 (10 for the first one 20 for the second one)
+- "Values" = `mx1.simplelogin.co.` and `mx2.simplelogin.co.`(mx1 being the one you first want to add in the first MX record and mx2 being the second one you want to add in the second MX record)
 
 ![](./mx-records.png)
 
