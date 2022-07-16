@@ -16,11 +16,11 @@ To verify ownership of your domain, press on the "Manage DNS" button under the "
 
 ![](./manage-dns-button.png)
 
-Then create a TXT record and add the appropriate values from the SimpleLogin DNS setup screen in to the appropriate fields in GoDaddy.
+Then create a TXT record and add the appropriate values from the SimpleLogin DNS setup page in to the appropriate fields in GoDaddy.
 
 ![](./txt-record.png)
 
-After adding the appropriate values from the SimpleLogin DNS setup screen in to the appropriate fields in GoDaddy and waiting for it to be verified in the SimpleLogin DNS setup screen after having pressed "Verify" in SimpleLogin. It should look something like this.
+After adding the appropriate values from the SimpleLogin DNS setup page in to the appropriate fields in GoDaddy and waiting for it to be verified in the SimpleLogin DNS setup page after having pressed "Verify" in SimpleLogin. It should look something like this.
 
 ![](./sl-domain-verified.png)
 
@@ -44,7 +44,7 @@ Then add the following Values, Name, and Priorities to the MX records:
 
 ![](./mx-records.png)
 
-Now press on "Verify" in the SimpleLogin DNS setup screen under the "MX record" selection. And wait a bit as it can take up to several minutes (or hours) before it has propagated on the web for everyone to seen, and also don't hesitate to press on "Verify" several times to see if it has propagated yet.
+Now press on "Verify" in the SimpleLogin DNS setup page under the "MX record" selection. And wait a bit as it can take up to several minutes (or hours) before it has propagated on the web for everyone to seen, and also don't hesitate to press on "Verify" several times to see if it has propagated yet.
 
 ![](./mx-verified.png)
 
@@ -64,7 +64,7 @@ In GoDaddy, press the "ADD" button, then select the following record Type, Name,
 
 ![](./spf-record.png)
 
-Now, after having done that, go back to the SimpleLogin DNS setup screen and press on "Verify" to see if the SPF selection has been verified or not.
+Now, after having done that, go back to the SimpleLogin DNS setup page and press on "Verify" to see if the SPF selection has been verified or not.
 
 If it has, it should look something like this:
 
@@ -84,7 +84,7 @@ In GoDaddy, press the "ADD" button, then select the following record Type, Name,
 
 ![](./dkim-record.png)
 
-Now, same as before with the SPF policy, go back to the SimpleLogin DNS setup screen and press on "Verify" to see if the DKIM selection has been verified or not.
+Now, same as before with the SPF policy, go back to the SimpleLogin DNS setup page and press on "Verify" to see if the DKIM selection has been verified or not.
 
 If it has, it should look something like this:
 
@@ -104,7 +104,7 @@ And again, same as before. In GoDaddy, press the "ADD" button, then select the f
 
 ![](./dmarc-record.png)
 
-And again, same as before with the SPF and DKIM policies, go back to the SimpleLogin DNS setup screen and press on "Verify" to see if the DMARC selection has been verified or not.
+And again, same as before with the SPF and DKIM policies, go back to the SimpleLogin DNS setup page and press on "Verify" to see if the DMARC selection has been verified or not.
 
 Once again, if it has, it should look something like this:
 
