@@ -2,7 +2,7 @@
 
 To use SimpleLogin, you need to register an account.
 
-To explore all Premium features, we offer you a free 7-day trial. Apart from the limit of 15 aliases, there are no restrictions on your usage during the free trial. No credit card is required to sign up for the trial either. 
+To explore all Premium features, we offer you a free 7-day trial. Apart from the limit of 10 aliases, there are no restrictions on your usage during the free trial. No credit card is required to sign up for the trial either. 
 
 After the trial, if you decide to not upgrade, your account will be in the Free plan. All aliases created during the trial are kept and continue to work normally, except from the PGP encryption which is only available in the Premium plan.
 
