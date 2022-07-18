@@ -8,8 +8,6 @@ repo_name: simple-login/documentation
 repo_url: https://github.com/simple-login/documentation
 copyright: SimpleLogin is an open-source email alias solution to protect your email address from spam and more.
 
-
-
 theme:
   name: material
   palette:
