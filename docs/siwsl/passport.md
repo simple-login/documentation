@@ -9,7 +9,7 @@ For SimpleLogin, you can use either [OAuth strategy](https://github.com/jaredhan
 First please install `passport`, `passport-openidconnect`, `express-session` (passport uses session to store its data)
 
 ```bash
-npm install passport passport-openidconnect express-session --save
+npm install passport@^0.6.0 passport-openidconnect@0.0.2 express@^4.18.1 express-session@^1.17.3 --save
 ```
 
 Then please store your SimpleLogin **AppID** and **AppSecret** somewhere, preferably in `env` variable as recommended in the [The Twelve Factors](https://12factor.net).
