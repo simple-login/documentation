@@ -6,7 +6,7 @@ This is the SimpleLogin documentation.
 
 Our documentation is a great place to find most answers and make sure that you can get the most out of SimpleLogin. Please use the search box to quickly search for a specific topic and find the answers you're looking for.
 
-Cannot find what you're looking for? Please do [contact us](mailto:hi@simplelogin.io) so we can update the documentation. Thanks, and enjoy SimpleLogin!
+Cannot find what you're looking for? Please do [contact us](mailto:support@simplelogin.zendesk.com) so we can update the documentation. Thanks, and enjoy SimpleLogin!
 
 If you spot any errors in the documentation, please let us know or better yet, fix it by clicking on the pencil icon on the top right of every page.
 

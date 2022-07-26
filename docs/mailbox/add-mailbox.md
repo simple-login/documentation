@@ -14,7 +14,7 @@ Please click on the "Confirm email" to activate your new mailbox.
 
 ![](./verification-email.png)
 
-Don't see this email in your inbox? Please check your spam folder and contact hi@simplelogin.io if the problem persists.
+Don't see this email in your inbox? Please check your spam folder and contact support@simplelogin.zendesk.com if the problem persists.
 
 Once  the new mailbox is confirmed, you can use it when creating a new alias on the [custom alias page](https://app.simplelogin.io/dashboard/custom_alias)
 
