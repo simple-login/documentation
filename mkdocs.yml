@@ -1,13 +1,13 @@
 site_name: SimpleLogin Docs
 site_url: https://simplelogin.io/docs/
-site_description: Receive and send emails anonymously.
+site_description: SimpleLogin is an open-source email aliasing solution to protect your email address from spam, data breaches and more.
 site_author: SimpleLogin
 
 # Repository
 repo_name: simple-login/documentation
 repo_url: https://github.com/simple-login/documentation
-copyright: SimpleLogin is an open-source email alias solution to protect your email address from spam and more.
-
+copyright: SimpleLogin is an open-source email aliasing solution to protect your email address from spam, data breaches and more | Copyright ® 2019 - 2023 SimpleLogin SAS. All rights reserved. |
+.
 theme:
   name: material
   palette:
