@@ -4,11 +4,6 @@ This repository is used to document and keep a detailed user guide of ways on ho
 # Contributing
 Anybody is welcome to contribute grammatical and factual corrections. 
 
-# Guides Copyright 
-All contect in this repository is copyright ® of SimpleLogin SAS.
-
-**Copyright ® 2019 - 2023 SimpleLogin SAS. All rights reserved.**
-
 # Third Party Licenses
 Docs made possible by [MkDocs](https://www.mkdocs.org), which the use of the softawre is licensed under a "[BSD 2-Clause License](https://github.com/mkdocs/mkdocs/blob/master/LICENSE)".
 
@@ -44,3 +39,7 @@ Please take a look at existing pages to make sure new page follow the same struc
 
 4) Create a pull request for the new page.
 
+# Copyright Notice
+All contect in this repository is copyright ® of SimpleLogin SAS.
+
+**Copyright ® 2019 - 2023 SimpleLogin SAS. All rights reserved.**
