@@ -7,7 +7,7 @@ Anybody is welcome to contribute grammatical and factual corrections.
 # Guides Copyright 
 All contect in this repository is copyright ® of SimpleLogin SAS.
 
-**Copyright ® SimpleLogin SAS 2019 - 2023**
+**Copyright ® 2019 - 2023 SimpleLogin SAS. All rights reserved.**
 
 # Third Party Licenses
 Docs made possible by [MkDocs](https://www.mkdocs.org), which the use of the softawre is licensed under a "[BSD 2-Clause License](https://github.com/mkdocs/mkdocs/blob/master/LICENSE)".
