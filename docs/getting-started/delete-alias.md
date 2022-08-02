@@ -15,7 +15,7 @@ If you really want to delete an alias, you can click on "More" button, then "Del
 
 If an alias **belongs to your domain or subdomain**, it's moved to the domain "Trash" when it's deleted. In order to be able to recreate the alias, you first need to move it out of the trash.
 
-First click on "Details" on the [domain](https://app.simplelogin.io/dashboard/) page or [subdomain]( https://app.simplelogin.io/dashboard/subdomain) page.
+First click on "Details" on the [domain](https://app.simplelogin.io/dashboard/custom_domain) page or [subdomain](https://app.simplelogin.io/dashboard/subdomain) page.
 
 ![](delete-alias/domain-list.png)
 
