@@ -1,6 +1,6 @@
 One-click unsubscribe (or [RFC8058](https://datatracker.ietf.org/doc/html/rfc8058)) is provided by some email clients that allow you to quickly unsubscribe from a sender.
 
-Example from ProtonMail:
+Example from Proton Mail:
 
 ![](./one-click-unsubscribe-pm.png)
 

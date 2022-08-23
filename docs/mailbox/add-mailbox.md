@@ -1,4 +1,4 @@
-*Mailbox* is where emails sent to an alias are forwarded to. It's your usual mailbox, e.g. Gmail, Outlook, ProtonMail, etc.
+*Mailbox* is where emails sent to an alias are forwarded to. It's your usual mailbox, e.g. Gmail, Outlook, Proton Mail, etc.
 
 When you sign up for a SimpleLogin account, the email address you provided is used to create a default mailbox.
 

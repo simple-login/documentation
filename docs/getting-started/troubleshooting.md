@@ -41,8 +41,8 @@ This video shows how to add `simplelogin.co` and `simplelogin.io` as safe sender
 
 [![How to set up filter in Hotmail](https://img.youtube.com/vi/Qk2TZA-ORx0/0.jpg)](https://www.youtube.com/watch?v=Qk2TZA-ORx0)
 
-### Create a ProtonMail filter
+### Create a Proton Mail filter
 
-The below video shows how to create a rule in ProtonMail to mark all emails that end with `@simplelogin.co` or `@simplelogin.io` as safe.
+The below video shows how to create a rule in Proton Mail to mark all emails that end with `@simplelogin.co` or `@simplelogin.io` as safe.
 
-[![How to set up filter in ProtonMail](https://img.youtube.com/vi/Ek28fFv8R3M/0.jpg)](https://www.youtube.com/watch?v=Ek28fFv8R3M)
+[![How to set up filter in Proton Mail](https://img.youtube.com/vi/Ek28fFv8R3M/0.jpg)](https://www.youtube.com/watch?v=Ek28fFv8R3M)
