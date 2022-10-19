@@ -26,7 +26,7 @@ Once on the page of your domain, click on **“Update DNS configurations”** un
 
 ## 1. **Add TXT record on Cloudflare DNS dashboard to verify your domain ownership**
 
-From the DNS configuration panel on Cloudflare, click on the **“Add record”**
+From the [Cloudflare DNS configurations panel](/docs/custom-domain/registrars/cloudflare/cloudflare/#access-the-dns-configurations-panel-of-your-domain-on-cloudflare), click on the **“Add record”**
 
 ![](./cloudflare-add-record.png)
 
@@ -47,7 +47,7 @@ Once your domain ownership is verified, you can continue with the rest of the se
 
 ## 2. **Add MX record on a Cloudflare domain**
 
-From the Cloudflare DNS configurations panel, click on the **“Add record”** again.
+From the [Cloudflare DNS configurations panel](/docs/custom-domain/registrars/cloudflare/cloudflare/#access-the-dns-configurations-panel-of-your-domain-on-cloudflare), click on the **“Add record”** again.
 
 **Then create a first MX record with:**
 
@@ -82,7 +82,7 @@ Once the MX record is verified, you can start creating aliases with your domain!
 
 Setting up SPF is recommended if you plan to send emails from your aliases. It'll reduce the chance your emails ending up in the recipient's Spam folder.
 
-From the Cloudflare DNS configurations panel, click on the **"Add record"** button. 
+From the [Cloudflare DNS configurations panel](/docs/custom-domain/registrars/cloudflare/cloudflare/#access-the-dns-configurations-panel-of-your-domain-on-cloudflare), click on the **"Add record"** button. 
 
 ![](./cloudflare-add-spf.png)
 
@@ -102,7 +102,7 @@ Go back to SimpleLogin and click on **"Verify",** the SPF should be now verified
 
 Similar to SPF, setting up DKIM is recommended if you plan to send emails from your aliases. It'll reduce the chance your emails ending up in the recipient's Spam folder. We will add 3 DKIM records to your DNS configuration.
 
-From the Cloudflare DNS configurations panel, click on the **"Add record"** button, then add the following CNAME record:
+From the [Cloudflare DNS configurations panel](/docs/custom-domain/registrars/cloudflare/cloudflare/#access-the-dns-configurations-panel-of-your-domain-on-cloudflare), click on the **"Add record"** button, then add the following CNAME record:
 
 ![](./cloudflare-add-dkim.png)
 
@@ -141,7 +141,7 @@ Go back to SimpleLogin and click on **"Verify"**, the DKIM should be now verifie
 
 Once you have SPF and DKIM set up, setting up DMARC is recommended to even reduce further the chance your emails ending up in the recipient's Spam folder.
 
-From the Cloudflare DNS configurations panel, click on the **"Add record"** button, then add the following TXT record:
+From the [Cloudflare DNS configurations panel](/docs/custom-domain/registrars/cloudflare/cloudflare/#access-the-dns-configurations-panel-of-your-domain-on-cloudflare), click on the **"Add record"** button, then add the following TXT record:
 
 ![](./cloudflare-add-dmarc.png)
 
