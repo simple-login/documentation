@@ -2,8 +2,6 @@
 
 ## **Add your domain to SimpleLogin**
 
-You have a domain name bought on Cloudflare and you want to use it on SimpleLogin? This documentation is made for you.
-
 Head to the SimpleLogin [domain page](https://app.simplelogin.io/dashboard/custom_domain) and add your domain:
 
 ![](../../new-domain.png)
@@ -45,7 +43,7 @@ Once your domain ownership is verified, you can continue with the rest of the se
 
 ![](../sl-domain-ownership.png)
 
-## 2. **Add MX record on a Cloudflare domain**
+## 2. **Add MX record**
 
 From the [Cloudflare DNS configurations panel](/docs/custom-domain/registrars/cloudflare/cloudflare/#access-the-dns-configurations-panel-of-your-domain-on-cloudflare), click on the **“Add record”** again.
 
@@ -78,7 +76,7 @@ Once the MX record is verified, you can start creating aliases with your domain!
 
 ![](../domain-added.png)
 
-## **(Optional) 3. Add TXT record on a Cloudflare domain for SPF**
+## **(Optional) 3. Add TXT record for SPF**
 
 Setting up SPF is recommended if you plan to send emails from your aliases. It'll reduce the chance your emails ending up in the recipient's Spam folder.
 
@@ -96,7 +94,7 @@ From the [Cloudflare DNS configurations panel](/docs/custom-domain/registrars/cl
 
 Go back to SimpleLogin and click on **"Verify",** the SPF should be now verified.
 
-![](./cloudflare-spf-verified.png)
+![](../spf-verified.png)
 
 ## **(Optional) 4. Add CNAME record a Cloudflare domain for DKIM**
 
@@ -152,4 +150,4 @@ From the [Cloudflare DNS configurations panel](/docs/custom-domain/registrars/cl
 
 Go back to SimpleLogin and click on **"Verify"**, the DMARC should be now verified.
 
-![](./cloudflare-dmarc-verified.png)
+![](../dmarc-verified.png)
