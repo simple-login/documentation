@@ -41,7 +41,7 @@ Now click on **"Verify"** on SimpleLogin, your domain ownership should be now ve
 
 Once your domain ownership is verified, you can continue with the rest of the setup.
 
-![](../sl-domain-ownership.png)
+![](../../sl-domain-ownership.png)
 
 ## 2. **Add MX record**
 
@@ -70,11 +70,11 @@ If you have existing MX records, you need to remove them by clicking **"Edit”*
 
 Now click on **"Verify"** on SimpleLogin, the MX records should be now verified. As it can take up to several minutes for the DNS change to be available, don't hesitate to click on **"Verify"** several minutes later.
 
-![](../domain-verified.png)
+![](../../domain-verified.png)
 
 Once the MX record is verified, you can start creating aliases with your domain! Click on "New Custom Alias", you should now see your domain in the list of available domains.
 
-![](../domain-added.png)
+![](../../domain-added.png)
 
 ## **(Optional) 3. Add TXT record for SPF**
 
@@ -94,7 +94,7 @@ From the [Cloudflare DNS configurations panel](/docs/custom-domain/registrars/cl
 
 Go back to SimpleLogin and click on **"Verify",** the SPF should be now verified.
 
-![](../spf-verified.png)
+![](../../spf-verified.png)
 
 ## **(Optional) 4. Add CNAME record a Cloudflare domain for DKIM**
 
@@ -133,7 +133,7 @@ From the [Cloudflare DNS configurations panel](/docs/custom-domain/registrars/cl
 
 Go back to SimpleLogin and click on **"Verify"**, the DKIM should be now verified.
 
-![](../dkim-verified.png)
+![](../../dkim-verified.png)
 
 ## **(Optional) 5. Add TXT record for DMARC on a Cloudflare domain**
 
@@ -150,4 +150,4 @@ From the [Cloudflare DNS configurations panel](/docs/custom-domain/registrars/cl
 
 Go back to SimpleLogin and click on **"Verify"**, the DMARC should be now verified.
 
-![](../dmarc-verified.png)
+![](../../dmarc-verified.png)
