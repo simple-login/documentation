@@ -58,6 +58,7 @@ nav:
       - GoDaddy: custom-domain/registrars/godaddy/godaddy.md
       - Google: custom-domain/registrars/google/google.md
       - Cloudflare: custom-domain/registrars/cloudflare/cloudflare.md
+      - Gandi: custom-domain/registrars/gandi/gandi.md
 
   - Subdomain:
     - Create a subdomain: subdomain/new.md
