@@ -2,7 +2,7 @@
 
 ## **Add your domain to SimpleLogin**
 
-You have a domain name bought on [Gandi](https://gandi.net) and you want to use it on SimpleLogin? This documentation will show you how to add your Gandi domain in SimpleLogin.
+This documentation will show you how to add your Gandi domain in SimpleLogin.
 
 Head to the SimpleLogin [domain page](https://app.simplelogin.io/dashboard/custom_domain) and add your domain:
 
