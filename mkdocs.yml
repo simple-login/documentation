@@ -74,6 +74,7 @@ nav:
   - Subscription:
     - Student discount: subscription/student-discount.md
     - Family discount: subscription/family-plan.md
+    - Switch plan (Proton Unlimited): subscription/switch-plan-proton-unlimited.md
 
   - SIWSL:
     - Welcome: siwsl/intro.md
