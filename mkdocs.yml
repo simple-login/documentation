@@ -70,6 +70,7 @@ nav:
 
   - Mailboxes:
     - Add a new mailbox: mailbox/add-mailbox.md
+    - PGP encryption: mailbox/pgp-encryption.md
 
   - Subscription:
     - Student discount: subscription/student-discount.md
