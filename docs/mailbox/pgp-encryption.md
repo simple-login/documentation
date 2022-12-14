@@ -8,13 +8,13 @@ If your mailbox is hosted by email providers such as **Gmail, Outlook, Hotmail o
 
 **You don’t need to set up PGP**, if your mailbox is a ProtonMail email address.
 
-ProtonMail already encrypts all emails with the public PGP key of your ProtonMail account.
+ProtonMail already encrypts all emails with the public PGP key of your ProtonMail account and store your emails with **[zero-access encryption](https://proton.me/blog/zero-access-encryption)**.
 
 ## **If your mailbox does not support PGP encryption (Gmail, Hotmail, YahooMail etc.)**
 
 In order to prevent Gmail, Hotmail, Yahoo from reading your emails, you need to add your public PGP key to your mailbox on SimpleLogin.
 
-To do that, you need to create a PGP key pair. **You will only need your public key**.
+To do that, you need to create a PGP key pair. **You will only need to add you public PGP key to SimpleLogin**.
 
 **Important!** SimpleLogin does not require or store your PGP Private key.
 
@@ -30,7 +30,8 @@ To do that, you need to create a PGP key pair. **You will only need your public 
 
 That’s it! From now on, all emails forwarded by SimpleLogin alias will be encrypted with your key.
 
-You can now decrypt your email using your PGP private key with a decryption software.
+To decrypt your email using your PGP private key, you will need a **third-party software or extension** like [GPGTools](https://gpgtools.org/) or [Mailvelope](https://mailvelope.com/en). 
+
 
 ### **(Optional) Hide email subject when PGP is enabled**
 
