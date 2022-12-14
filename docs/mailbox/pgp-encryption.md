@@ -20,7 +20,7 @@ To do that, you need to create a PGP key pair. **You will only need your public 
 
 ### **Add your public PGP key to your mailbox**
 
-1. From your dashboard, go to **[Mailbox](https://app.simplelogin.io/dashboard/mailbox)**
+1. From your dashboard, go to **[Mailboxes](https://app.simplelogin.io/dashboard/mailbox)**
 2. Click on the mailbox you would like to add your public PGP key to, and click **“Edit →”**
 3. **Enable “Pretty Good Privacy (PGP)”** and copy/paste your public PGP key
 4. Click **Save**
