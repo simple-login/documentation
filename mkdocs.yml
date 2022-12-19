@@ -77,8 +77,6 @@ nav:
     - Family discount: subscription/family-plan.md
     - Switch plan (Proton Unlimited): subscription/switch-plan-proton-unlimited.md
 
-  - Report blocking website: report-blocking-website.md
-
   - SIWSL:
     - Welcome: siwsl/intro.md
     - App: siwsl/app.md
@@ -92,5 +90,5 @@ nav:
     - Implicit Flow - the raw way: siwsl/implicit-flow.md
     - Error Codes: siwsl/errors.md
 
-
+  - Report blocking website: report-blocking-website.md
   - Report abuse: report-abuse.md
