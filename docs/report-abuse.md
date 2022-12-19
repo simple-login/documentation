@@ -5,7 +5,7 @@
 
 If you notice that a user is using SimpleLogin for malicous reasons, please report it to:
 
-> [abuse@simplelogin.com](mailto:abuse@simplelogin.io)
+> [abuse@simplelogin.io](mailto:abuse@simplelogin.io)
 
 ## What behavior is considered abusive?
 
