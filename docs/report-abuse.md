@@ -13,7 +13,6 @@ Any violations of our [terms and conditions](https://simplelogin.io/terms/) can 
 
 - Bulk and scripted signups
 - Bulk messaging
-- Having multiple free accounts
 - Sending unsolicited or spam messages
 - Impersonating other services
 - Spreading viruses
