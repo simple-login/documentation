@@ -3,7 +3,7 @@
 
 ## How to report an abusive user?
 
-If you notice that a user is using SimpleLogin for malicous reasons, please report it to:
+If you notice that SimpleLogin is used for malicious reasons, please report to:
 
 > [abuse@simplelogin.io](mailto:abuse@simplelogin.io)
 
@@ -21,4 +21,4 @@ Any violations of our [terms and conditions](https://simplelogin.io/terms/) can 
 - Criminal activity
 
 
-In event when a case of abuse is verified. SimpleLogin reserve the right to terminate or suspend access to the Services immediately, without prior notice or liability, for any harmful behavior that includes but not limited to: sending spams, spreading viruses, repeatedly marking emails from SimpleLogin as spam.
+When a case of abuse is verified, SimpleLogin reserves the right to terminate or suspend access to our service immediately, without prior notice or liability.
