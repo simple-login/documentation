@@ -1,6 +1,6 @@
 # What to do when a website blocks registration with SimpleLogin
 
-Most websites and online services allow you to register with your SimpleLogin alias. However, there have been reports of some sites not accepting users who try to register with a SimpleLogin domain (<u>simplelogin.com</u>, <u>simplelogin.fr</u>).
+Most websites and online services allow you to register with your SimpleLogin alias. However, there have been reports of some websites not accepting a SimpleLogin domain.
 
 ### **What to do when a Website is blocking SimpleLogin?**
 
@@ -12,13 +12,13 @@ We keep track of all the websites reported, do further testing and manually reac
 
 You will notice this when website is blocking you to register with your unique SimpleLogin alias. Some websites are transparent and display an error message like *“This email address is not accepted”*.
 
-Others websites are sending more generic error messages or not even display any error. In that case, try registering with another email address (proton.me or gmail.com).
+Other websites are sending more generic error messages or not even display any error. In that case, try registering with another email address (proton.me or gmail.com).
 
 ### **Why SimpleLogin is not a throwaway email service?**
 
 - You need an account to use SimpleLogin
 - All aliases generated are unique
-- Multiple anti-abuse automations
+- Multiple anti-abuse automation
 - Anti-SPAM limitations
 
 SimpleLogin is an email aliasing tool that allow users to add a layer of privacy and security while browsing online.
