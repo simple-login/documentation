@@ -149,7 +149,7 @@ From the [Gandi’s DNS configuration panel](/docs/custom-domain/registrars/gand
 - Set the record **Type** as `TXT`
 - Keep the default **TTL** value
 - Add the value `_dmarc` under in the **Name** field
-- Copy/paste the value `v=DMARC1; p=quarantine; pct=100; adkim=s; aspf=s` in the **Text vakue** field
+- Copy/paste the value `v=DMARC1; p=quarantine; pct=100; adkim=s; aspf=s` in the **Text value** field
 
 Go back to SimpleLogin and click on **"Verify"**, the DMARC should be now verified.
 
