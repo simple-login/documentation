@@ -4,7 +4,7 @@ Most websites and online services allow you to register with your SimpleLogin al
 
 ### **What to do when a Website is blocking SimpleLogin?**
 
-> Report the website to: [blocks@simplelogin.io](mailto:blocks@simplelogin.io?subject=This%20website%20blocks%20registration%20with%20SimpleLogin:%20https://thisdomain.com&body=Hi%20there,%20I%20want%20to%20report%20a%20website%20that%20is%20blocking%20me%20to%20register%20using%20my%20SimpleLogin%20email%20alias.)
+> Report the website to: [antiabuse@proton.me](mailto:antiabuse@proton.me?subject=This%20website%20blocks%20registration%20with%20SimpleLogin:%20https://thisdomain.com&body=Hi%20there,%20I%20want%20to%20report%20a%20website%20that%20is%20blocking%20me%20to%20register%20using%20my%20SimpleLogin%20email%20alias.)
 
 We keep track of all the websites reported, do further testing and manually reach out the website to ask for the block to be removed.
 
