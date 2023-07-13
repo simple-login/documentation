@@ -5,7 +5,7 @@
 
 If you notice that SimpleLogin is used for malicious reasons, please report to:
 
-> [abuse@simplelogin.io](mailto:abuse@simplelogin.io)
+> [antiabuse@proton.me](mailto:antiabuse@proton.me)
 
 ## What behavior is considered abusive?
 
