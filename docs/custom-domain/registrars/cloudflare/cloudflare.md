@@ -107,8 +107,8 @@ From the [Cloudflare DNS configurations panel](/docs/custom-domain/registrars/cl
 **Add a first DKIM record**
 
 - Set the record **Type** as `CNAME`
-- Add the value `dkim._domainkey01` under in the **Name** field
-- Add the value `dkim._domainkey01.simplelogin.co.` to **Target**
+- Add the value `dkim._domainkey` under in the **Name** field
+- Add the value `dkim._domainkey.simplelogin.co.` to **Target**
 - Important! **Disable the Proxy status** to `DNS only`
 - Keep **TTL** as `Auto`
 
@@ -116,8 +116,8 @@ From the [Cloudflare DNS configurations panel](/docs/custom-domain/registrars/cl
 **(again)** **Repeat the same operation and add a second DKIM record**
 
 - Set the record **Type** as `CNAME`
-- Add the value `dkim._domainkey02` under in the **Name** field
-- Add the value `dkim._domainkey02.simplelogin.co.` to **Target**
+- Add the value `dkim02._domainkey` under in the **Name** field
+- Add the value `dkim02._domainkey.simplelogin.co.` to **Target**
 - Important! **Disable the Proxy status** to `DNS only`
 - Keep **TTL** as `Auto`
 
@@ -125,8 +125,8 @@ From the [Cloudflare DNS configurations panel](/docs/custom-domain/registrars/cl
 **(again) Repeat the same operation and add a third DKIM record (last one, I promise)**
 
 - Set the record **Type** as `CNAME`
-- Add the value `dkim._domainkey03` under in the **Name** field
-- Add the value `dkim._domainkey03.simplelogin.co.` to **Target**
+- Add the value `dkim03._domainkey` under in the **Name** field
+- Add the value `dkim03._domainkey.simplelogin.co.` to **Target**
 - Important! **Disable the Proxy status** to `DNS only`
 - Keep **TTL** as `Auto`
 
