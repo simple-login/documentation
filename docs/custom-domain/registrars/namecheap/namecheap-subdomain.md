@@ -13,7 +13,7 @@ Head to the SimpleLogin [domain page](https://app.simplelogin.io/dashboard/custo
 
 You'll be redirected to SimpleLogin DNS page that has a guide to set up different DNS records for your domain.
 
-## Add TXT record on NameCheap to verify your domain ownernership
+## Add TXT record on NameCheap to verify your domain ownership
 
 If your *root* domain (*domain.com*) is already added as SimpleLogin domain, this step isn't necessary.
 

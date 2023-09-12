@@ -11,7 +11,7 @@ You'll be redirected to SimpleLogin DNS page that has a guide to set up differen
 
 ![](../../domain-dns.png)
 
-## Add TXT record on Google Domains dashboard to verify your domain ownernership
+## Add TXT record on Google Domains dashboard to verify your domain ownership
 
 To verify your domain ownership, click on the "DNS" button on the left sidebar on your Google Domains dashboard:
 

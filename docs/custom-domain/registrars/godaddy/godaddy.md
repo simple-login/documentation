@@ -10,7 +10,7 @@ You'll then be redirected to the SimpleLogin DNS setup page that has a guide on 
 
 ![](./domain-dns.png)
 
-## Verify domain ownernership
+## Verify domain ownership
 
 To verify ownership of your domain, press on the "Manage DNS" button under the "Domain" selection in the left sidebar in your GoDaddy dashboard.
 
