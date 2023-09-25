@@ -6,7 +6,7 @@ Head to the SimpleLogin [domain page](https://app.simplelogin.io/dashboard/custo
 
 ![](./new-domain.png)
 
-You'll then be redirected to the SimpleLogin DNS setup page that has a guide on how to setup different DNS records for your domain.
+You'll then be redirected to the SimpleLogin DNS setup page that has a guide on how to set up different DNS records for your domain.
 
 ![](./domain-dns.png)
 
@@ -104,7 +104,7 @@ If it hasn't, then double check the setup and fix any mistakes.
 
 ## (Optional) Adding Domain-based Message Authentication Reporting & Conformance to GoDaddy
 
-Once you have setup the SPF and DKIM policies for your domain, setting up a DMARC (Domain-based Message Authentication Reporting & Conformance) policy is also recommended to even further reduce the chance of your emails ending up in the recipient's spam folder.
+Once you have set up the SPF and DKIM policies for your domain, setting up a DMARC (Domain-based Message Authentication Reporting & Conformance) policy next is also recommended to even further reduce the chance of your emails ending up in the recipient's spam folder.
 
 And again, same as before. In GoDaddy, press the "ADD" button, then select the following record Type, Name, and Value in the record to add the DMARC policy to your domain:
 
