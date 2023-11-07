@@ -25,7 +25,7 @@ SimpleLogin is an email aliasing tool that allow users to add a layer of privacy
 
 ### **How to get SimpleLogin unblocked?**
 
-Another way to resolve the problem is to get [add your custom domain to SimpleLogin](https://simplelogin.io/docs/custom-domain/add-domain/) (this is a Premium feature). 
+Another way to resolve the problem is to get your [subdomain](https://simplelogin.io/docs/subdomain/new/) or [add your custom domain to SimpleLogin](https://simplelogin.io/docs/custom-domain/add-domain/) (this is a Premium features).  
 
 ### **Email template to send to websites that block SimpleLogin**
 
