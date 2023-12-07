@@ -13,7 +13,9 @@ Any violations of our [terms and conditions](https://simplelogin.io/terms/) can 
 
 - Bulk and scripted signups
 - Bulk messaging
+- Bulk registrations for third-party services
 - Sending unsolicited or spam messages
+- SPAMs forwarding from “spambots”
 - Impersonating other services
 - Spreading viruses
 - Repeatedly marking emails from SimpleLogin as spam
