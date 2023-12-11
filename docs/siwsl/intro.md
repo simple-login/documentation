@@ -2,7 +2,7 @@
 
 SIWSL is an [open-source](https://github.com/simple-login/app) privacy-focused login service.
 
-Integrating SIWSL gives your users a total control over what information they share when they sign up for your website.
+Integrating SIWSL gives your users total control over what information they share when they sign up for your website.
 
 ![](./images/siwsl.jpeg)
 
@@ -56,13 +56,13 @@ or NodeJS `http-server` module
 
 > npx http-server -p 8000
 
-Now you should now be able to sign in with SimpleLogin on [http://localhost:8000](http://localhost:8000) 🎉
+Now you should be able to sign in with SimpleLogin on [http://localhost:8000](http://localhost:8000) 🎉
 
 ---
 
 ## User Info
 
-SIWSL allows you to obtain the following informations from a person:
+SIWSL allows you to obtain the following information from a person:
 
 - `email`: either their personal email address or an email alias.
 
@@ -70,15 +70,15 @@ SIWSL allows you to obtain the following informations from a person:
 
 - `avatar_url` (optional): only if this person has decided to share their profile picture. This url is **expired** in 1 week.
 
-The next section quickly introduces OAuth2 and what `flow` should be used. If you already have strong understanding on `OAuth2`, please head directly to [App](../app)
+The next section quickly introduces OAuth2 and what `flow` should be used. If you already have a strong understanding of `OAuth2`, please head directly to [App](../app)
 
 ## Overview
 
-From the user point of view, the login experience is consisted of 2 steps:
+The user's login experience consists of 2 steps:
 
-1. User clicks on **Sign in with SimpleLogin** button, gets redirected to SimpleLogin authorization page. User will be asked if they want to share their information with your app/website.
+1. User clicks on **Sign in with SimpleLogin** button and gets redirected to the SimpleLogin authorization page. User will be asked if they want to share their information with your app/website.
 
-2. User accepts, gets redirected back to your application and are authenticated.
+2. User accepts, gets redirected back to your application and is authenticated.
 
 ![](./images/user-flow.png)
 
@@ -86,8 +86,8 @@ From the user point of view, the login experience is consisted of 2 steps:
 
 From your app's point of view, the flow is the following:
 
-1. User clicks on **Sign in with SimpleLogin**, you app generates a redirection url to SimpleLogin that contains information about your website/app, e.g. `https://app.simplelogin.io/oauth2/authorize?client_id={AppID}&redirect_uri={your_callback_url}`
-where `{AppID}` is your SimpleLogin AppId and `{your_callback_url}` is the url that user will be redirected back in the next step.
+1. User clicks on **Sign in with SimpleLogin** and your app generates a redirection url to SimpleLogin that contains information about your website/app, e.g. `https://app.simplelogin.io/oauth2/authorize?client_id={AppID}&redirect_uri={your_callback_url}`
+where `{AppID}` is your SimpleLogin AppId and `{your_callback_url}` is the url that user will be redirected back to in the next step.
 
 2. User approves sharing data with your app, gets redirected back with `{your_callback_url}` along with a special `grant` that allows you to get user information. At this point there are 2 possibilities:
 
@@ -98,15 +98,15 @@ where `{AppID}` is your SimpleLogin AppId and `{your_callback_url}` is the url t
 
 If you have access to your back-end (Php, Python, etc), we recommend using `Code Flow` which is more secure: the `code` is transferred using browser redirection but the `access token` is exchanged in a backend-to-backend call.
 
-The url that user is redirected to after the first step would be `{your_callback_url}?code={code}`
+The url that the user is redirected to after the first step would be `{your_callback_url}?code={code}`
 
 ## Implicit Flow
 
 If you don't have access to your back-end or it is difficult to modify back-end code, you should use the `Implicit Flow` where  the `access token` is sent via browser redirection.
 
-The url that user is redirected after the first step would be `{your_callback_url}#access_token={access_token}`. Please note that here `#` (fragment) is used instead of `?` (query) to avoid the `access token` from hitting your back-end which should have nothing to do with it.
+The url that the user is redirected to after the first step would be `{your_callback_url}#access_token={access_token}`. Please note that here `#` (fragment) is used instead of `?` (query) to avoid the `access token` from hitting your back-end which should have nothing to do with it.
 
-Please note that the `implicit flow` will probably be replaced soon by the [PKCE](https://tools.ietf.org/html/draft-ietf-oauth-security-topics-11#section-2.1.1). Support for `PKCE` is on SimpleLogin roadmap. Its use will be transparent in SimpleLogin SDK, meaning that you don't need to change anything.
+Please note that the `implicit flow` will probably be replaced soon by the [PKCE](https://tools.ietf.org/html/draft-ietf-oauth-security-topics-11#section-2.1.1). Support for `PKCE` is on the SimpleLogin roadmap. Its use will be transparent in SimpleLogin SDK, meaning that you don't need to change anything.
 
 ## Standing on the shoulders of giants
 
