@@ -20,7 +20,7 @@ Please click on the "Verify Email" button that we sent to you via email to activ
 
 ![](./verify-account.png)
 
-Don't see this email in your inbox? Please check your spam folder and contact support@simplelogin.zendesk.com if the problem persists.
+Don't see this email in your inbox? Please check your spam folder and contact [support@simplelogin.zendesk.com](mailto:support@simplelogin.zendesk.com) if the problem persists.
 
 ## Sign up with Proton
 
