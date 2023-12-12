@@ -19,7 +19,7 @@ Other websites are sending more generic error messages or not even display any e
 - You need an account to use SimpleLogin
 - All aliases generated are unique
 - Multiple anti-abuse automation
-Anti-SPAM limitations
+- Anti-SPAM limitations
 - All SimpleLogin aliases is permanent, untill user will decide to delete them
 - Registration of multiple accounts on the same service by single user is not allowed [by ToS](https://simplelogin.io/terms/)
 
@@ -29,7 +29,7 @@ SimpleLogin is an email aliasing tool that allow users to add a layer of privacy
 
 Another way to resolve the problem is to get your [subdomain](https://simplelogin.io/docs/subdomain/new/) or [add your custom domain to SimpleLogin](https://simplelogin.io/docs/custom-domain/add-domain/) (this is a Premium features).  
 
-### **Email template to send for website's support that block SimpleLogin**
+**Email template to send to websites that block SimpleLogin**
 
 > **To:** Customer support email address
 
