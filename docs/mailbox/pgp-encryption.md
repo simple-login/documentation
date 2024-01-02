@@ -30,7 +30,7 @@ To do that, you need to create a PGP key pair. **You will only need to add you p
 
 That’s it! From now on, all emails forwarded by SimpleLogin alias will be encrypted with your key.
 
-To decrypt your email using your PGP private key, you will need a **third-party software or extension** like [GPGTools](https://gpgtools.org/) or [Mailvelope](https://mailvelope.com/en). 
+To decrypt your emails using your PGP private key, you will need a **third-party software or extension**. A list of PGP supported softwares can be found on [OpenPGP.org](https://www.openpgp.org/software/).
 
 
 ### **(Optional) Hide email subject when PGP is enabled**
