@@ -1,6 +1,6 @@
 # Welcome to the SimpleLogin documentation
 
-SimpleLogin is an [open source](https://github.com/simple-login) email aliasing service that allows you to receive and send emails anonymously. Based in France, SimpleLogin has helped 50,000+ people protect their mailboxes against spams, phishing and data breaches.
+SimpleLogin is an [open source](https://github.com/simple-login) email aliasing service that allows you to receive and send emails anonymously. Based in Switzerland, SimpleLogin has helped 50,000+ people protect their mailboxes against spams, phishing and data breaches.
 
 Our documentation is a great place to find most answers and make sure that you can get the most out of SimpleLogin. Please use the search box to quickly search for a specific topic and find the answers you're looking for.
 
