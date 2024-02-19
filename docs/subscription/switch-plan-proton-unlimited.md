@@ -23,7 +23,7 @@ Before starting, make sure you have:
 
 This will open a window to connect to your Proton account. Once connected, you will be automatically redirected to SimpleLogin. 
 
-After that, you should **“Premium subscription managed by Proton”** at the top of the Settings page. Please note that the connection can sometimes take up to several minutes.
+After that, you should see **“Premium subscription managed by Proton”** at the top of the Settings page. Please note that the connection can sometimes take up to several minutes.
 
 ![](./current-plan.jpeg)
 
