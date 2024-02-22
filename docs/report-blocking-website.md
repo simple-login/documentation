@@ -37,12 +37,12 @@ Another way to resolve the problem is to get your [subdomain](https://simplelogi
 
 > *Hello,*
 
-> *I would appreciate your help in registering my account with your service. I was unable to use my SimpleLogin email alias during the sign-up process: myemailalias@simplelogin.com*
+> *I am reaching out to seek your assistance with an issue I encountered while attempting to register my account with your service. Despite being unable to use my SimpleLogin email alias myemailalias@simplelogin.com during the sign-up process, I believe the block on SimpleLogin alias on your domain might have been an oversight.*
 
->  *The block of SimpleLogin alias on your domain must be a mistake.  Hundreds of thousands of people globally use SimpleLogin to protect their identity online against SPAM and phishing by using a unique email alias. SimpleLogin has been acquired by Proton, the leader of encrypted email use by tens of millions of users.*
+>*SimpleLogin has gained significant popularity among users worldwide, serving as a tool for protecting their online identities against SPAM and phishing by providing unique email aliases. This service, is part of Proton AG, one of the most popular encrypted email provider.*
 
-> *I believe it’s important not to discriminate against users who prefer a privacy-focused email services.*
+> *I would like to emphasize the importance of not discriminating against users who opt for privacy-focused email services. For further information regarding SimpleLogin aliases, I recommend reviewing the official documentation at https://simplelogin.io/docs/why-simplelogin-is-not-disposable-mail/.*
 
-> *Thank you for your assistance.*
+> *Thank you for your attention to this matter.*
 
 > *Best regards,*
