@@ -10,6 +10,40 @@ You'll then be redirected to the SimpleLogin DNS setup page that has a guide on 
 
 ![](./domain-dns.png)
 
+## Consider Temporarily disabling 2FV
+
+Each of the upcoming steps will trigger 2FV verification of your identity, when 2FV is enabled on your GoDaddy account & domain. GoDaddy services will automatically disable domain DNS changes for 24 hours whenever too many authentication requests are detected in a short period of time.  Users have reported being locked out of adding DNS records after having quickly completed the steps or mistyping the 2FV password. Consider disabling 2FV before continueing with the subsequent steps.  The sub sections below will wealk you through disabling 2FV temporarily. 
+
+### Open User Menu Account Settings
+
+From any page within the godaddy customer portal you can find the Account Settings link by clicking the user initial chip in the top-right corner of the page.  The user menu will then appear and display a link to the Account Settings page.
+
+![](./user-menu-account-settings.png)
+
+### Open Login and Pin Settings
+
+After the Account Settings page has loaded, click the Account Settinsg button in the top-left tab header araea.  The menu that pops will display a link titled *Login & Pin".  Click that link.
+
+![](./login-and-pin.png)
+
+### Editing 2fV
+
+The Login & Pin page has two columns within which settings are grouped by feature. The 2FV feature is in the right column and is the second feature from the top.  Locate it and   Locate the 2FV feature section and click the Edit link.
+
+![](./edit-2fv-settings.png)
+
+### Remove Authentication Service(s)
+
+First note down somewhere the authentication service name and unique ID.  You'll need that information at end of this process in order to re-enable 2FV.  Next click the delete link in the right-most column of the services list.  
+
+![](./edit-2FV-settings.png)
+
+You will then be prompted to confirm the removal.  Click Remove to complete the process for that authenitcation service.
+
+![](./verify-removal-of-authentication-service.png)
+
+Repeat the previous two steps for each of the remaining services.  If no services exist you can move on to the next step below.  
+
 ## Verify domain ownership
 
 To verify ownership of your domain, press on the "Manage DNS" button under the "Domain" selection in the left sidebar in your GoDaddy dashboard.
@@ -121,6 +155,38 @@ Once again, if it has, it should look something like this:
 ![](./dmarc-verified.png)
 
 If it hasn't, then double check the setup and fix any mistakes.
+
+## Re-enable 2FV if previously disabled
+
+If you elected to disable 2FV near the start of these steps, you'll want to repeat the previous steps but this time re-add the previoulsy removed authentication services. 
+
+### (Optional) Open User Menu Account Settings
+
+Click the user chip in the top-right corner of the page.  Click the Account Settings link located in the user menu which appears.  
+
+![](./user-menu-account-settings.png)
+
+### (Optional) Open Login and Pin Settings
+
+After the Account Settings page has loaded click the Account Settinsg button in the top-left tab header araea.  The menu that pops will include a link titled *Login & Pin".  Click that link.
+
+![](./login-and-pin.png)
+
+### (Optional) Add Backup
+
+Locate the 2FV card in the right-column of the **Login & Pin** page.  At the bottom of the card there is a button labeled **Add Backup**.  Click that button to be able to select which authentication service will deliver the backup authorization.  
+
+![](./2FV-card-login-and-pin-page.png)
+
+### Select Backup Verification Service
+
+Select the verification service from the list provided and click **Next**. 
+
+![](./2FV-verification-service-selection.png)
+
+The next set of instructions will vary by service.  If you select the **Authenticator app** you will have to walk through the installation/deployment of an app on your mobile device.  If you select **SMS** you'll need to enter the phone number and verify it.  If you select **Security Key** you'll then walk through the detection and configuration of the key.  
+
+Repeat the previous two steps for each of the remaining services to be restored.
 
 # The End
 
