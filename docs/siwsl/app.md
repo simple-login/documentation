@@ -1,6 +1,6 @@
 # SimpleLogin App
 
-A SimpleLogin App represents an **user database**. For ex, if you have iOS, Android and Web app for a single product, then you just need a single SimpleLogin App. Same applies if you have 2 different products but that share the same user database.
+A SimpleLogin App represents a **user database**. For ex, if you have iOS, Android and Web app for a single product, then you just need a single SimpleLogin App. Same applies if you have 2 different products but that share the same user database.
 
 ## Create an App
 
