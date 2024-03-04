@@ -76,6 +76,10 @@ nav:
     - Student discount: subscription/student-discount.md
     - Family discount: subscription/family-plan.md
     - Switch plan (Proton Unlimited): subscription/switch-plan-proton-unlimited.md
+ 
+  - Two factor authentication:
+    - 2FA enable: 2fa/2fa-enable.md
+    - 2FA disable: 2fa/2fa-disable.md
 
   - SIWSL:
     - Welcome: siwsl/intro.md
