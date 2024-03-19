@@ -39,7 +39,7 @@ Another way to resolve the problem is to get your [subdomain](https://simplelogi
 
 > *I am reaching out to seek your assistance with an issue I encountered while attempting to register my account with your service. Despite being unable to use my SimpleLogin email alias myemailalias@simplelogin.com during the sign-up process, I believe the block on SimpleLogin alias on your domain might have been an oversight.*
 
->*SimpleLogin has gained significant popularity among users worldwide, serving as a tool for protecting their online identities against SPAM and phishing by providing unique email aliases. This service, is part of Proton AG, one of the most popular encrypted email providers.*
+>*SimpleLogin has gained significant popularity among users worldwide, serving as a tool for protecting their online identities against SPAM and phishing by providing unique email aliases. This service is part of Proton AG, one of the most popular encrypted email providers.*
 
 > *I would like to emphasize the importance of not discriminating against users who opt for privacy-focused email services. For further information regarding SimpleLogin aliases, I recommend reviewing the official documentation at https://simplelogin.io/docs/why-simplelogin-is-not-disposable-mail/.*
 
