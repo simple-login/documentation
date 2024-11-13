@@ -49,6 +49,9 @@ nav:
     - Anti-phishing: getting-started/anti-phishing.md
     - Other email alias service: getting-started/compatibility-email-alias.md
     - Troubleshooting: getting-started/troubleshooting.md
+  - Two factor authentication:
+    - Enabling 2FA: /two-factor-auth/2fa-setup.md
+    - Disabling 2FA: /two-factor-auth/2fa-disable.md
   - Custom Domain:
     - Add a Custom Domain: custom-domain/add-domain.md
     - Manage your domain: custom-domain/manage-domain.md
