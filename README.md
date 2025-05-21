@@ -14,7 +14,20 @@ Docs made possible by [MkDocs](https://www.mkdocs.org), which the use of the sof
 
 # Docs Installation
 
-To run a copy of the docs locally, you'll need to install `mkdocs-material` via `pip`, a package manager in Python. Please check how to install `pip` on your operating system, for example on Debian system, you can run `sudo apt install python3-pip`.
+## Via UV
+
+We recommend using [uv](https://github.com/astral-sh/uv) for installing dependencies. After having `uv` installed, simply run
+
+```bash
+uv sync
+uv run mkdocs serve
+```
+
+Then open http://localhost:8000/docs/ to see a copy of the docs.
+
+## Via pip
+
+If you have python installed, you can also install `mkdocs-material` via `pip`. Please check how to install `pip` on your operating system, for example on Debian system, you can run `sudo apt install python3-pip`.
 
 After that, you can install `mkdocs-material` with:
 
@@ -28,7 +41,7 @@ Now let's run the server:
 mkdocs serve
 ```
 
-Then open http://localhost:8000/docs/ to see a copy of the docs.
+Then open http://localhost:8000/docs/
 
 # How to add a new page
 
