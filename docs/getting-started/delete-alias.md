@@ -1,15 +1,20 @@
 ## Delete an alias
 
-We recommend **against** deleting an alias as this operation isn't reversible, meaning a deleted alias **can't be restored**. In fact, to avoid a deleted alias from being reused by another user, a deleted alias is moved to a global "trash" and SimpleLogin make sure no one can reuse a deleted alias. 
-
-Exception is made for aliases created with your domain or subdomain: in this case, you can **recreate** an alias. Please note that this isn't the same as **restoring** an alias as all records like contacts, settings, etc associated with an alias are deleted when the alias is deleted.
-
-
-Instead of deleting an alias, we suggest either disable the alias or [block some of its senders](block-sender.md).
+We recommend **against** deleting an alias and suggest either disable the alias or [block some of its senders](block-sender.md).
 
 If you really want to delete an alias, you can click on "More" button, then "Delete" button.
 
 ![](delete-alias/delete-alias.png)
+
+When an alias is deleted, depending on your setting, it's either:
+
+- immediately put into a global trash and we make sure that it can't be reused. All historic information on the alias (the account that creates the alias, alias contacts, etc) are deleted to respect your privacy.
+
+- moved to the global trash after 30 days. In the meantime, you can restore it. This is the default option.
+
+The above applies to all aliases created with SimpleLogin domains.
+
+For aliases created with your own domain or provided SimpleLogin subdomains, you can always **recreate** them. Please note that this isn't the same as **restoring** an alias as all records like contacts, settings, etc associated with an alias are deleted when the alias is deleted.
 
 ## Recreate a deleted alias
 
