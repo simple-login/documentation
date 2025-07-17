@@ -55,5 +55,5 @@ Please take a look at existing pages to make sure new page follow the same struc
 
 3) Run the server locally if it isn't already done. The new page should appear on the left sidebar. Any change will be refreshed automatically.
 
-4) Create a pull request for the new page.
+4) Create a pull request for the new page, ideally with some screenshots of the changes.
 
