@@ -73,6 +73,6 @@ Your original SimpleLogin subscription will not be renewed, no further payment w
 
 *If you need any help, feel free to [contact our customer support by creating a request ticket](https://app.simplelogin.io/dashboard/support).*
 
-#### **What I subscribed to a SimpleLogin annual plan? Can I be reimbursed?** 
+#### **What if I subscribed to a SimpleLogin annual plan? Can I be reimbursed?** 
 
 *Unfortunately, we can not offer a refund for previously paid subscription.*
