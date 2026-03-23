@@ -2,7 +2,8 @@
 
 If you want to reply to an email, just hit "Reply" and the response will come from your alias. Your personal email address stays hidden.
 
-To send an email to a new contact, please follow the steps below. You can also watch this Youtube video that quickly walks you through the steps.
+To send an email to a new contact, please follow the steps below. You can also watch this YouTube video for a quick walkthrough. Please note that this feature is available only with a paid plan (e.g., SimpleLogin Premium, Proton Pass Plus, and higher).
+
 
 [![Connect your NameCheap custom domain to SimpleLogin](https://img.youtube.com/vi/GN060XMt6Pc/0.jpg)](https://www.youtube.com/watch?v=GN060XMt6Pc)
 
