@@ -6,6 +6,6 @@ Our documentation is a great place to find most answers and make sure that you c
 
 If you spot any errors in the documentation, please let us know or better yet, fix it by clicking on the pencil icon on the top right of every page.
 
-Cannot find what you're looking for? Please do [contact us](mailto:support@simplelogin.zendesk.com) so we can update the documentation. Thanks, and enjoy SimpleLogin!
+Cannot find what you're looking for? Please do [contact us](mailto:simplelogin@support.proton.me) so we can update the documentation. Thanks, and enjoy SimpleLogin!
 
 ![](./assets/everywhere.png)
