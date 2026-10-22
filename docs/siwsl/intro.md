@@ -1,5 +1,9 @@
 # SIWSL (Sign in with SimpleLogin)
 
+!!! warning "No longer accepting new websites"
+    Sign in with SimpleLogin is no longer accepting new websites, so it is not possible to create new apps (OAuth clients) anymore.
+    Apps that already exist keep working exactly as before, so there is nothing you need to change.
+
 SIWSL is an [open-source](https://github.com/simple-login/app) privacy-focused login service.
 
 Integrating SIWSL gives your users total control over what information they share when they sign up for your website.
@@ -112,6 +116,6 @@ Please note the `implicit flow` will likely be replaced soon by the [PKCE](https
 
 SimpleLogin follows the protocols OAuth2 and OpenID Connect, the same standards that power logging in via Facebook/Google/Apple/etc. SimpleLogin is therefore compatible with almost all libraries that support these protocols. The integration mostly consists of implementing the right endpoints. 😉
 
-Now please head directly to [App](../app) to create your first SimpleLogin App!
+Now please head to [App](../app) to learn how SimpleLogin Apps work.
 
 

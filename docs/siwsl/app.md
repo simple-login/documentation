@@ -4,7 +4,11 @@ A SimpleLogin App represents a **user database**. For ex, if you have iOS, Andro
 
 ## Create an App
 
-Please head to [https://app.simplelogin.io/developer/](https://app.simplelogin.io/developer/) and click on **Create new app** to create a new app. You only need to provide a name.
+!!! warning "No longer accepting new websites"
+    Sign in with SimpleLogin is no longer accepting new websites, so it is not possible to create new apps (OAuth clients) anymore.
+    Apps that already exist keep working exactly as before, so there is nothing you need to change.
+
+Creating new apps is no longer possible. If you already have an app, you can manage it at [https://app.simplelogin.io/developer/](https://app.simplelogin.io/developer/).
 
 ![](./images/dev1.png)
 

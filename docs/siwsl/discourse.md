@@ -42,7 +42,7 @@ The plugin should be now available on the Discourse Admin/Plugins page:
 
 ## Step 2: Create a website on SimpleLogin dashboard
 
-Head to [SimpleLogin dashboard](https://app.simplelogin.io/developer/) and create a new website.
+Creating new websites is no longer possible. If you already have a website, open it from the [SimpleLogin dashboard](https://app.simplelogin.io/developer/).
 
 ![](./images/dev1.png)
 
