@@ -12,7 +12,7 @@ You'll be redirected to SimpleLogin DNS page that has a guide to set up differen
 
 ## **Access the DNS configurations panel of your domain on Cloudflare**
 
-To access the Cloudflare DNS configurations panel of your domaine click on **“Manage domains”** on the left-sidebar. 
+To access the Cloudflare DNS configurations panel of your domaine click on **“Manage domains”** on the left-sidebar.
 
 Select the domain you would like to add to SimpleLogin and click **“Manage”.**
 
@@ -35,9 +35,15 @@ Then create a TXT record with the data from the SimpleLogin DNS page.
 - Keep **TTL** as `Auto`
 - Copy/paste the value of SimpleLogin DNS page in the **Content** field
 
+You can enclose the entire value in the **Content** field in double quotes.
+[Cloudflare automatically adds double quotes](https://developers.cloudflare.com/dns/manage-dns-records/reference/dns-record-types/#txt) when you save a new record without them.
+If Cloudflare warns about missing or mismatched quotes, edit the record, enclose the entire value in a matching pair of double quotes, and save it again.
+
 ![](./cloudflare-add-domain.png)
 
-Now click on **"Verify"** on SimpleLogin, your domain ownership should be now verified. Please note that it can take up to several minutes for the DNS change to be available. In this case don't hesitate to click on **"Verify"** several minutes later.
+Now click on **"Verify"** on SimpleLogin, your domain ownership should be now verified.
+Please note that it can take up to several minutes for the DNS change to be available.
+In this case don't hesitate to click on **"Verify"** several minutes later.
 
 Once your domain ownership is verified, you can continue with the rest of the setup.
 
@@ -68,19 +74,22 @@ If you have existing MX records, you need to remove them by clicking **"Edit”*
 
 *Here is Cloudflare’s documentation about [How to delete a DNS record on Cloudflare](https://developers.cloudflare.com/dns/manage-dns-records/how-to/create-dns-records/#delete-dns-records)*
 
-Now click on **"Verify"** on SimpleLogin, the MX records should be now verified. As it can take up to several minutes for the DNS change to be available, don't hesitate to click on **"Verify"** several minutes later.
+Now click on **"Verify"** on SimpleLogin, the MX records should be now verified.
+As it can take up to several minutes for the DNS change to be available, don't hesitate to click on **"Verify"** several minutes later.
 
 ![](../../domain-verified.png)
 
-Once the MX record is verified, you can start creating aliases with your domain! Click on "New Custom Alias", you should now see your domain in the list of available domains.
+Once the MX record is verified, you can start creating aliases with your domain!
+Click on "New Custom Alias", you should now see your domain in the list of available domains.
 
 ![](../../domain-added.png)
 
 ## **(Optional) 3. Add TXT record for SPF**
 
-Setting up SPF is recommended if you plan to send emails from your aliases. It'll reduce the chance your emails ending up in the recipient's Spam folder.
+Setting up SPF is recommended if you plan to send emails from your aliases.
+It'll reduce the chance your emails ending up in the recipient's Spam folder.
 
-From the [Cloudflare DNS configurations panel](/docs/custom-domain/registrars/cloudflare/cloudflare/#access-the-dns-configurations-panel-of-your-domain-on-cloudflare), click on the **"Add record"** button. 
+From the [Cloudflare DNS configurations panel](/docs/custom-domain/registrars/cloudflare/cloudflare/#access-the-dns-configurations-panel-of-your-domain-on-cloudflare), click on the **"Add record"** button.
 
 ![](./cloudflare-add-spf.png)
 
@@ -89,7 +98,7 @@ From the [Cloudflare DNS configurations panel](/docs/custom-domain/registrars/cl
 - Set the record **Type** as `TXT`
 - Add the value `@` under in the **Name** field
 - Keep **TTL** as `Auto`
-- Copy/paste `v=spf1 include:simplelogin.co ~all` in the **Content** field
+- Copy/paste `"v=spf1 include:simplelogin.co ~all"` in the **Content** field
 
 
 Go back to SimpleLogin and click on **"Verify",** the SPF should be now verified.
@@ -98,7 +107,9 @@ Go back to SimpleLogin and click on **"Verify",** the SPF should be now verified
 
 ## **(Optional) 4. Add CNAME record a Cloudflare domain for DKIM**
 
-Similar to SPF, setting up DKIM is recommended if you plan to send emails from your aliases. It'll reduce the chance your emails ending up in the recipient's Spam folder. We will add 3 DKIM records to your DNS configuration.
+Similar to SPF, setting up DKIM is recommended if you plan to send emails from your aliases.
+It'll reduce the chance your emails ending up in the recipient's Spam folder.
+We will add 3 DKIM records to your DNS configuration.
 
 From the [Cloudflare DNS configurations panel](/docs/custom-domain/registrars/cloudflare/cloudflare/#access-the-dns-configurations-panel-of-your-domain-on-cloudflare), click on the **"Add record"** button, then add the following CNAME record:
 
@@ -109,7 +120,8 @@ From the [Cloudflare DNS configurations panel](/docs/custom-domain/registrars/cl
 - Set the record **Type** as `CNAME`
 - Add the value `dkim._domainkey` under in the **Name** field
 - Add the value `dkim._domainkey.simplelogin.co.` to **Target**
-- Important! **Disable the Proxy status** to `DNS only`
+- Important!
+  **Disable the Proxy status** to `DNS only`
 - Keep **TTL** as `Auto`
 
 
@@ -118,7 +130,8 @@ From the [Cloudflare DNS configurations panel](/docs/custom-domain/registrars/cl
 - Set the record **Type** as `CNAME`
 - Add the value `dkim02._domainkey` under in the **Name** field
 - Add the value `dkim02._domainkey.simplelogin.co.` to **Target**
-- Important! **Disable the Proxy status** to `DNS only`
+- Important!
+  **Disable the Proxy status** to `DNS only`
 - Keep **TTL** as `Auto`
 
 
@@ -127,7 +140,8 @@ From the [Cloudflare DNS configurations panel](/docs/custom-domain/registrars/cl
 - Set the record **Type** as `CNAME`
 - Add the value `dkim03._domainkey` under in the **Name** field
 - Add the value `dkim03._domainkey.simplelogin.co.` to **Target**
-- Important! **Disable the Proxy status** to `DNS only`
+- Important!
+  **Disable the Proxy status** to `DNS only`
 - Keep **TTL** as `Auto`
 
 
@@ -146,7 +160,7 @@ From the [Cloudflare DNS configurations panel](/docs/custom-domain/registrars/cl
 - Set the record **Type** as `TXT`
 - Add the value `_dmarc` under in the **Name** field
 - Keep **TTL** as `Auto`
-- Copy/paste the value `v=DMARC1; p=quarantine; pct=100; adkim=s; aspf=s` in the **Content** field
+- Copy/paste the value `"v=DMARC1; p=quarantine; pct=100; adkim=s; aspf=s"` in the **Content** field
 
 Go back to SimpleLogin and click on **"Verify"**, the DMARC should be now verified.
 
