@@ -10,5 +10,5 @@ You'll be directed to the domain DNS page where a small guide will walk you thro
 
 ![](./domain-dns.png)
 
-Currently we have a guide on how to set up a domain on [GoDaddy](/docs/custom-domain/registrars/godaddy/godaddy/), [NameCheap](/docs/custom-domain/registrars/namecheap/namecheap/) (also for [subdomains](/docs/custom-domain/registrars/namecheap/namecheap-subdomain/)), [Google](/docs/custom-domain/registrars/google/google/), and [Cloudflare](/docs/custom-domain/registrars/cloudflare/cloudflare/). Guides for other domain registrars are coming up!
+Currently we have a guide on how to set up a domain on [GoDaddy](/docs/custom-domain/registrars/godaddy/godaddy/), [NameCheap](/docs/custom-domain/registrars/namecheap/namecheap/) (also for [subdomains](/docs/custom-domain/registrars/namecheap/namecheap-subdomain/)), and [Cloudflare](/docs/custom-domain/registrars/cloudflare/cloudflare/). Guides for other domain registrars are coming up!
 
