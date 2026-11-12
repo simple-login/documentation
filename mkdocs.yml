@@ -58,7 +58,6 @@ nav:
       - NameCheap: custom-domain/registrars/namecheap/namecheap.md
       - NameCheap (subdomain): custom-domain/registrars/namecheap/namecheap-subdomain.md
       - GoDaddy: custom-domain/registrars/godaddy/godaddy.md
-      - Google: custom-domain/registrars/google/google.md
       - Cloudflare: custom-domain/registrars/cloudflare/cloudflare.md
       - Gandi: custom-domain/registrars/gandi/gandi.md
 
