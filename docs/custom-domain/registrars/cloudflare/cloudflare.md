@@ -35,6 +35,10 @@ Then create a TXT record with the data from the SimpleLogin DNS page.
 - Keep **TTL** as `Auto`
 - Copy/paste the value of SimpleLogin DNS page in the **Content** field
 
+You can enclose the entire value in the **Content** field in double quotes.
+[Cloudflare automatically adds double quotes](https://developers.cloudflare.com/dns/manage-dns-records/reference/dns-record-types/#txt) when you save a new record without them.
+If Cloudflare warns about missing or mismatched quotes, edit the record, enclose the entire value in a matching pair of double quotes, and save it again.
+
 ![](./cloudflare-add-domain.png)
 
 Now click on **"Verify"** on SimpleLogin, your domain ownership should be now verified. Please note that it can take up to several minutes for the DNS change to be available. In this case don't hesitate to click on **"Verify"** several minutes later.
@@ -89,7 +93,7 @@ From the [Cloudflare DNS configurations panel](/docs/custom-domain/registrars/cl
 - Set the record **Type** as `TXT`
 - Add the value `@` under in the **Name** field
 - Keep **TTL** as `Auto`
-- Copy/paste `v=spf1 include:simplelogin.co ~all` in the **Content** field
+- Copy/paste `"v=spf1 include:simplelogin.co ~all"` in the **Content** field
 
 
 Go back to SimpleLogin and click on **"Verify",** the SPF should be now verified.
@@ -146,7 +150,7 @@ From the [Cloudflare DNS configurations panel](/docs/custom-domain/registrars/cl
 - Set the record **Type** as `TXT`
 - Add the value `_dmarc` under in the **Name** field
 - Keep **TTL** as `Auto`
-- Copy/paste the value `v=DMARC1; p=quarantine; pct=100; adkim=s; aspf=s` in the **Content** field
+- Copy/paste the value `"v=DMARC1; p=quarantine; pct=100; adkim=s; aspf=s"` in the **Content** field
 
 Go back to SimpleLogin and click on **"Verify"**, the DMARC should be now verified.
 
